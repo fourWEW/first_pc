@@ -54,7 +54,7 @@ nav>ul>li>i{
 	top:23px;
 	left:7px;
 }	
-body>img{
+body>img:first-of-type{
 	display: block;
 	width: 1200px;
 	height:130px;

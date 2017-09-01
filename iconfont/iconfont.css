@@ -15,13 +15,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-weibo:before { content: "\e620"; }
+.icon-weibo:before { content: "\e620";font-size:20px; }
 
-.icon-qq:before { content: "\e63a"; }
+.icon-qq:before { content: "\e63a";font-size:20px; }
 
 .icon-icon4:before { content: "\e633"; }
 
-.icon-weixin:before { content: "\e621"; }
+.icon-weixin:before { content: "\e621"; font-size:20px;}
 
 .icon-shouye-copy-copy:before { content: "\e60b"; }
 
