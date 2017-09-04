@@ -1,20 +1,8 @@
-*{
-	margin: 0;
-	padding:0;
-	list-style: none;
-	text-decoration: none;
-}
-body>img{
-	display: block;
-	width: 327px;
-	height: 88px;
-	margin: 0 auto;
-}
 footer{
 	width: 100%;
 	height: 320px;
 	background: #472229;
-	margin-top:45px;
+	margin-top:454px;
 	position: relative;
 }
 footer>img{
