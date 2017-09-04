@@ -1,0 +1,288 @@
+.banner{
+	width: 100%;
+	height: 525px;
+	/*background:red;*/
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+.bannerBox{
+	width: 1200px;
+	height: 100%;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: auto;
+}
+.dian{
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	width: 30px;
+	bottom: 30px;
+	left: 48%;
+	justify-content: space-between;
+}
+.dian li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:#fff;
+}
+.dian .active{
+	background:#c77c51;
+}
+.two{
+	background-image: url(../img/铁府首页初步_02.jpg);
+	background-size: 100%;
+	height: 500px;
+}
+.twoBox{
+	width: 1200px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	/*background:red;*/
+}
+.twoBox img{
+	display: block;
+	position: absolute;
+	top: 75px;
+	right: 167px;
+}
+.two ul{
+	font-family: "微软雅黑";
+	width: 533px;
+	height: 300px;
+	overflow: hidden;
+	/*background:red;*/
+	position: absolute;
+	right: 27%;
+	top:20%;
+}
+.two ul>li{
+	float: right;
+	display: inline;
+	width: 14px;
+	height: 280px;
+	font-size: 14px;
+	writing-mode: vertical-rl;
+	line-height: 34px;
+
+}
+.three{
+	background:#d5c9bd;
+	width:100%;
+	height: 955px;
+}
+.threeBox{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.t{
+	display: block;
+	margin: 104px auto 80px;
+}
+.white{
+	width: 100%;
+	height: 412px;
+	background:#fff;
+	border-radius: 8px;
+	position: relative;
+}
+.l{
+	display: block;
+	width: 304px;
+	height: 356px;
+	float:left;
+	margin-left: 41px;
+	margin-top: 29px;
+}
+.whiter{
+	width: 500px;
+	height: 356px;
+	float:right;
+	/*background:red;*/
+	margin-top: 29px;
+	margin-right: 18%;
+	display: flex;
+	justify-content: space-between;
+}
+.whiter li{
+	background-image: url(../img/养生保健.jpg);
+	width: 40px;
+	height: 195px;
+	background-size: 100%;
+	margin-top: 80px;
+}
+.j{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+	width: 160px;
+	height: 160px;
+}
+.b{
+	margin: 20px auto 0;
+	width: 534px;
+	color: #462327;
+	text-align: center;
+	text-decoration-line: underline;
+	font-size: 14px;
+}
+.title{
+	display: block;
+	margin: 82px auto 0;
+}
+.four img{
+	display: block;
+	width: 100%;
+}
+.five{
+	background:#d5c9bd;
+	height: 655px;
+	width: 100%;
+	overflow: hidden;
+}
+.fiveBox{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.fiveBox ul>li{
+	width: 224px;
+	height: 281px;
+	background:#f9f9f9;
+	position: relative;
+}
+.fiveBox ul{
+	width: 692px;
+	height: 281px;
+	/*background:red;*/
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.fiveBox ul>li img{
+	display: block;
+	position: absolute;
+	bottom: -70px;
+	left:14px;
+	width: 200px;
+	height: 200px;
+}
+.fiveBox ul>li span{
+	position: absolute;
+	top:60px;
+	left:85px;
+	font-size: 14px;
+}
+.six{
+	width: 100%;
+	height: auto;
+	background:#d5c9bd;
+	overflow: hidden;
+}
+.n{
+	display: block;
+	width: 241px;
+	height: 65px;
+	margin: 54px auto 0;
+}
+footer{
+	width: 100%;
+	height: 320px;
+	background: #472229;
+	margin-top:45px;
+	position: relative;
+}
+footer>img{
+	display: block;
+	width:385px;
+	height: 50px;
+	margin: 0 auto; 
+}
+
+.dot{
+	width: 68px;
+	height: 68px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 50%;	
+	position: absolute;
+	top:10px;
+	left:48%;
+	right:48%;
+}
+.dot>a{
+	display: block;
+	width:54px;
+	height: 54px;
+	border-radius: 50%;
+	background: #fff;
+	color: #282828;
+	text-align: center;
+	margin: 7px 0 0 7px;
+	float:left;
+	font-size: 26px;
+	line-height: 54px;
+}
+footer>ul{
+	width: 340px;
+	height: 80px;
+	/*background: pink;*/
+	margin: 50px auto 30px;
+}
+footer>ul>li{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin-left:30px;
+	color:#A4714A;
+	line-height: 35px;
+	text-align: center;
+}
+footer>ul>li:nth-child(2) {
+	margin: 0 0 0 95px;
+}
+footer>ul>li:nth-child(3) {
+	float:right;
+	margin-right:30px;
+}
+footer>ul>a{
+	display: block;
+	float:left;
+	color:#fff;
+	margin-top:10px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+footer>ul>a:nth-child(5){
+	margin: 10px 0 0 50px;
+}
+footer>ul>a:nth-child(6){
+	float:right;
+	margin-right:18px;
+}
+footer>a{
+	display:block; 
+	width:720px;
+	margin:0 auto;
+	color:#fff;
+	line-height: 30px;
+}
+footer>a:last-child{
+	display:block; 
+	width:650px;
+	margin:0 auto;
+	color:#fff;
+}
