@@ -4,3 +4,90 @@
 	list-style: none;
 	text-decoration: none;
 }
+.banner{
+	width: 100%;
+	height: 370px;
+	margin-top: 20px;
+}
+.banner>img{
+	width: 100%;
+}
+.logBox{
+	width: 293px;
+	height: 63px;
+	margin: 60px auto;
+}
+.logBox>img{
+	width: 100%;
+	height:100%;
+}
+
+.workBox{
+	width: 1000px;
+	height: 880px;
+	margin: 0 auto;
+	position: relative;
+}
+.bottomWorkBox{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+.workBox>.more{
+	width: 106px;
+	height: 30px;
+	border: 1px solid red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: red;
+}
+.workBox>.workBox{
+	width: 100%;
+	height: 420px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.workBox>.workBox>li{
+	height: 100%;
+	flex-grow: 1;
+}
+.workBox>.workBox>li>img{
+	width: 313px;
+	height: 318px;
+
+}
+.workBox>.workBox>li>div{
+	width: 313px;
+	height: 45px;
+	position: relative;
+	margin-top: 15px;
+}
+.workBox>.workBox>li>div>.circle{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid #666;
+	display: block;
+	float: left;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 110px;
+	margin: auto;
+}
+.workBox>.workBox>li>div>.des{
+	display: block;
+	width: 303px;
+	font-size: 18px;
+	line-height: 45px;
+	color: #666;
+	text-align: center;
+	float: right;
+}

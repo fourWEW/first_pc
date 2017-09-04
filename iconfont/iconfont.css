@@ -19,7 +19,7 @@
 
 .icon-qq:before { content: "\e63a";font-size:20px; }
 
-.icon-icon4:before { content: "\e633"; }
+.icon-icon4:before { content: "\e633"; font-size:18px;}
 
 .icon-weixin:before { content: "\e621"; font-size:20px;}
 
@@ -31,5 +31,5 @@
 
 .icon-youjiantou:before { content: "\e607"; }
 
-.icon-right:before { content: "\e628"; }
+.icon-right:before { content: "\e628";font-size:20px; }
 
