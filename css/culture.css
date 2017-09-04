@@ -21,3 +21,153 @@
 	width: 100%;
 	height:100%;
 }
+
+.content{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+	margin-bottom:90px;
+    box-sizing: border-box;
+}
+
+.content-left{
+    width: 142px;
+    height: 248px;
+    border-top:1px solid #b7b09f;
+    border-right:1px solid #b7b09f;
+    padding-right: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.dianji{
+    margin-top: 34px;
+    color: #666666;
+    position: relative;
+
+}
+
+.dianji-yuan{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: -25px;
+}
+
+.dianji:hover{
+    color: #462327;
+    cursor: pointer;
+}
+
+.dianji:hover   .dianji-yuan {
+
+    border: 4px solid #462327;
+    box-sizing: border-box;
+
+}
+.dianji-zi{
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.dianji-zi2{
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform:uppercase;
+
+}
+
+
+
+.neirong1{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+	transition: 0.3s;
+}
+
+.neirong1:hover{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+
+}
+
+.content-tu{
+    width: 200px;
+    height: 200px;
+    margin-right: 12px;
+
+
+}
+
+.content-zi{
+    width: 590px;
+    height: auto;
+}
+
+.c-zi-top{
+    width: 100%;
+    height: 52px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #462327;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
+
+.c-left h3{
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-transform:uppercase;
+    color: #462327;
+}
+
+.c-left h3:last-child{
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 4px;
+}
+
+.c-right{
+   width: 80px;
+    height: 26px;
+    background: #e1e1e1;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 12px;
+    border: 1px solid  #5b3c40;
+    box-sizing: border-box;
+    color: #462327;
+}
+
+.time{
+    font-size: 12px;
+    color: #8a8a8a;
+    margin-top: 16px;
+}
+
+.content-p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 14px;
+}
