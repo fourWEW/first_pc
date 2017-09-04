@@ -1,0 +1,65 @@
+/*
+* @Author: Sunflower
+* @Date:   2017-09-03 09:04:54
+* @Last Modified by:   Sunflower
+* @Last Modified time: 2017-09-03 10:00:56
+*/
+*{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+.banner{
+	width: 100%;
+	height: 370px;
+	margin-top: 20px;
+}
+.banner>img{
+	width: 100%;
+}
+
+.new_bot{
+	width: 100%;
+	height:790px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.new_bot_item{
+	width: 998px;
+	/* height:790px; */
+	margin: 0 auto;
+
+}
+.item_top{
+	width: 100%;
+}
+.item_top img{
+	width: 100%;
+	height: 100%;
+}
+.item_bot{
+	width: 100%;
+	text-align: center;
+}
+.item_bot p{
+	padding-top: 30px;
+	font-size: 14px;
+	text-align: left;
+	line-height: 25px;
+	color: #666666;
+}
+.fen{
+	width: 998px;
+	height: 48px;
+	margin: 100px auto;
+	border-top: 1px solid #97ADB6;
+	border-bottom: 1px solid #97ADB6;
+	text-align:left;
+}
+.fen a{
+	line-height: 48px;
+	font-size: 16px;
+	color: #070707;
+	
+}
