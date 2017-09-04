@@ -1,0 +1,151 @@
+.leadBox{
+	width: 1200px;
+	height: 35px;
+	margin: 23px auto;
+	/*background: pink;*/
+}
+.lead{
+	width: 30px;
+	height: 30px;
+	border:1px solid #ECEAE8;
+	border-radius: 50%;
+	float:left;
+}
+.lead>i{
+	display: block;
+	width:20px;
+	height: 20px;
+	border:1px solid #DBD8D3;
+	border-radius: 50%;
+	margin: 4px auto;
+	line-height: 20px;
+	text-align: center;
+}
+.leadBox>a{
+	color:#8F8C87;
+	font-size: 18px;
+	line-height: 35px;
+	float:left;
+	margin-left:7px;
+}
+.leadBox>i{
+	color:#666;
+	font-size: 13px;
+	line-height: 35px;
+	float:left;
+	margin-left:6px;
+	margin-right:8px;
+}
+.lead1{
+	width: 30px;
+	height: 30px;
+	background: #4C2629;
+	border:1px solid #ECEAE8;
+	border-radius: 50%;
+	float:left;
+}
+.lead1>i{
+	display: block;
+	width:20px;
+	height: 20px;
+	border:1px solid #DBD8D3;
+	border-radius: 50%;
+	margin: 4px auto;
+	line-height: 20px;
+	text-align: center;
+	color:#ECEAE8;
+}
+.leadBox:last-child a{
+	color:#4C2629;
+	font-size: 18px;
+	line-height: 35px;
+	float:left;
+	margin-left:7px;
+}
+
+.banners{
+	width: 100%;
+	height: 520px;
+	margin: 30px auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tqls{
+	width: 335px;
+	height: 70px;
+	margin: 60px auto;
+}
+.section{
+	width: 1150px;
+	padding-bottom: 40px;
+	margin: 70px auto 260px;
+}
+.banimg{
+	width: 100%;
+	height: 340px;
+	display: flex;
+}
+.banimgL{
+	width: 555px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 555px 100%;
+	margin: 0 15px;
+}
+.banimgR{
+	width: 555px;
+	height: 100%;
+	margin: 0 15px;
+	box-sizing: border-box;
+	position: relative;
+}
+.banimgR1{
+	width: 523px;
+	height: 192px;
+	position: absolute;
+	left: 0px;
+	top: 92px;
+	border: 1px solid #999999;
+
+}
+.banimgR2{
+	width: 179px;
+	height: 56px;
+	position: absolute;
+	top: 52px;
+	left: -1px;
+}
+.banimgR1 ul{
+	padding: 22px 20px;
+}
+.banimgR1 ul>li{
+	padding-bottom: 13px;
+	font-family: '黑体';
+}
+
+.banimgR1s{
+	width: 523px;
+	height: 192px;
+	position: absolute;
+	right: 0px;
+	top: 92px;
+	border: 1px solid #999999;
+
+}
+.banimgR1s ul{
+	padding: 22px 20px;
+}
+.banimgR1s ul>li{
+	padding-bottom: 13px;
+	font-family: '黑体';
+	text-align: right;
+}
+.banimgR3{
+	width: 179px;
+	height: 56px;
+	position: absolute;
+	background-size: 100% 100%;
+	top: -42px;
+	right: -1px;
+}
