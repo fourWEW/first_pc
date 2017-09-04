@@ -1,0 +1,118 @@
+/*
+* @Author: 寰愭晱
+* @Date:   2017-09-04 15:48:46
+* @Last Modified by:   寰愭晱
+* @Last Modified time: 2017-09-04 16:01:52
+*/
+.fen_img{ 
+	width: 800px;
+	height: 100%;
+	margin: 0 auto; 
+}
+.end{
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	margin-top: 8px;
+	
+}
+.end-1{
+	width: 95%;
+	height: 33px;
+	/*background: darkseagreen;*/
+	margin: 0 auto;
+	padding-top: 18px;
+}
+.end-1>a{
+	font-size: 20px;
+	color: #000000;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.end-1-11{
+	font-size: 20px;
+	color: #000000;
+	float: left;
+	margin-left: 8px;
+	line-height: 32px;
+}
+.end-11{
+	width: 59px;
+	height: 32px;
+	border: 1px solid #9c9c9c;
+	border-radius:16px 16px 16px 16px;
+	float: left;
+	margin-left: 8px;
+	
+
+}
+.end-111{
+	width: 50px;
+	height: 25px;
+	border: 1px solid black;
+	border-radius:16px 16px 16px 16px;
+	margin: 3px auto;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	/*float: left;*/
+}
+.end-21{
+	width: 32px;
+	height: 32px;
+	border: 1px solid #9c9c9c;
+	border-radius:16px 16px 16px 16px;
+	float: left;
+	margin-left: 10px;
+
+}
+.end-211{
+	width: 24px;
+	height: 24px;
+	border-radius:16px 16px 16px 16px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 3px;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	/*float: left;*/
+}
+.end-2101{
+	width: 32px;
+	height: 32px;
+	background: #01B5FF;
+	border-radius:16px 16px 16px 16px;
+	float: left;
+	margin-left: 0.08rem;
+
+}
+.end-21101{
+	width: 25px;
+	height: 25px;
+	border-radius:16px 16px 16px 16px;
+	border: 1px solid #fff;
+		margin:3px auto;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	/*float: left;*/
+}
+.end1{
+	width: 100%;
+	height: 92px;
+	background: #F5F6FA;
+}
+.end1 li{
+	margin-top: 15px;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+	list-style: none;
+	font-family: "黑体";
+	color: #474747;
+		
+	
+}
