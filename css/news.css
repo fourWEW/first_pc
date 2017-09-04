@@ -94,13 +94,13 @@
 
 .new_bot{
 	width: 1000px;
-	height: 488px;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
 .new_bot_item{
 	width: 303px;
 	height: 488px;
+	margin:30px auto;
 	float:left;
 }
 .item_top{
