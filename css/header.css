@@ -19,8 +19,6 @@ nav{
 	width: 100%;
 	height:50px;
 	background: #4C2629;
-	position: absolute;
-	top:0;
 }
 nav>ul{
 	width: 880px;
@@ -56,9 +54,73 @@ nav>ul>li>i{
 	top:23px;
 	left:7px;
 }	
-body>img{
+body>img:first-of-type{
 	display: block;
 	width: 1200px;
 	height:130px;
 	margin: 25px auto;
+}
+.leadBox{
+	width: 1200px;
+	height: 35px;
+	margin: 23px auto;
+	/*background: pink;*/
+}
+.lead{
+	width: 30px;
+	height: 30px;
+	border:1px solid #ECEAE8;
+	border-radius: 50%;
+	float:left;
+}
+.lead>i{
+	display: block;
+	width:20px;
+	height: 20px;
+	border:1px solid #DBD8D3;
+	border-radius: 50%;
+	margin: 4px auto;
+	line-height: 20px;
+	text-align: center;
+}
+.leadBox>a{
+	color:#8F8C87;
+	font-size: 18px;
+	line-height: 35px;
+	float:left;
+	margin-left:7px;
+}
+.leadBox>i{
+	color:#666;
+	font-size: 13px;
+	line-height: 35px;
+	float:left;
+	margin-left:6px;
+	margin-right:8px;
+}
+.lead1{
+	width: 30px;
+	height: 30px;
+	background: #4C2629;
+	border:1px solid #ECEAE8;
+	border-radius: 50%;
+	float:left;
+}
+.lead1>i{
+	display: block;
+	width:20px;
+	height: 20px;
+	border:1px solid #DBD8D3;
+	border-radius: 50%;
+	margin: 4px auto;
+	line-height: 20px;
+	text-align: center;
+	color:#ECEAE8;
+}
+.leadBox:last-child a{
+	color:#4C2629;
+	font-size: 18px;
+	line-height: 35px;
+	float:left;
+	margin-left:7px;
 }
